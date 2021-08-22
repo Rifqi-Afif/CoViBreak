@@ -1,1 +1,0 @@
-let izin  = confirm("Izinkan Akses Lokasi?")

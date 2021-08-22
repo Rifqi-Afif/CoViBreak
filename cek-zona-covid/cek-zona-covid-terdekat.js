@@ -2,12 +2,10 @@ const mocksCityMap = {
   Aceh: {
     center: { lat: 106.816666, lng: -6.200 },
     population: 28547,
-    color: `yellow`,
   },
   "Sumatra Utara": {
     center: { lat: 2.1153547, lng: 99.5450974 },
-    population: 84273,
-    color: `red`,
+    population: 84273,  
   },
   "Sumatra Barat": {
     center: { lat: -0.7399397, lng: 100.8000051 },
@@ -151,8 +149,8 @@ function initMap() {
   });
 
   function cekWarna(population) {
-    return (population < 100000) ? "#008000"
-      : (population > 600000) ? "FF0000"
+    return (population < 100000) ? "FF7A00"
+      : (population > 600000) ? "FD0000"
       : "#ffff00";
   }
 

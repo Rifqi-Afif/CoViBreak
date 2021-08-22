@@ -1,0 +1,85 @@
+body
+{
+  margin: 0 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.topBox
+{
+  display: flex;
+  background-color: #9EFBDD;
+  height: 100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  box-shadow: 0px 6px 10px;
+}
+
+.bottomBox
+{
+  background-color: #9EFBDD;
+  height: 60px;
+  margin-top: 50px;
+}
+
+.title
+{
+  text-align: center;
+  font-family: 'Coustard', serif;
+  transform: translateX(10%);
+  font-size: 25px;
+}
+
+mkd-container {
+  padding: 20px;
+}
+
+.mkd-text {
+  margin: 150px;
+}
+
+.mkd-center {
+  text-align: center;
+}
+
+.mkd-justify {
+  text-align: justify;
+}
+
+{
+    margin: 20px;
+    padding: 20px;
+    outline: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title
+{
+  font-family: 'Coustard', serif;
+  font-size: 35px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.btnExit
+{
+  margin-top: 30px;
+  width: 50px;
+  height: 25px;
+  background-color: #9EFBDD;
+  border: none;
+}
+
+.btnExitImg
+{
+  width: 50%;
+  height: 75%;
+  transform: translate(10px, 50%);
+}
+
+.kodeverifikasi
+{
+  font-size: 13px;
+}

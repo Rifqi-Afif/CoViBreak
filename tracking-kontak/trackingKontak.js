@@ -155,3 +155,15 @@ function initAutocomplete() {
     map.fitBounds(bounds);
   });
 }
+
+function yaKirim()
+{
+  let tempatPergi = document.getElementById("pac-input").value;
+  localStorage.setItem("tempatPergi", tempatPergi);
+  let tanggalPergi = document.getElementById("tglBepergian").value;
+  localStorage.setItem("tanggalPergi", tanggalPergi);
+  let jamPergi = document.getElementById("jamPergi").value;
+  localStorage.setItem("jamPergi", jamPergi);
+  let jamPulang = document.getElementById("jamPulang").value;
+  localStorage.setItem("jamPulang", jamPulang);
+}

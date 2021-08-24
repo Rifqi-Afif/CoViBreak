@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CoViBreak</title>
-  
+  <title>Notifikasi</title>
+  <link href="notif.css" rel="stylesheet" type="text/css" />
+
 	<!--FONT-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,15 +25,29 @@
 	</script>
 </head>
 
-<script src="splash.js"></script>
+<body onload="loadNotif()">
+  <script src="tracking-kontak/trackingKontak.js"></script>
+  <script src="notif.js"></script>
 
-<body style="margin: 0; height: 100%;">
-  <div style="background-image: linear-gradient(#58BCBC, #FFFF); height: 100vh;">
-    <center style="transform: translateY(40%)">
-      <img src="./Images/LogoCoViBreak.png" style="width: 200px;" align="center">
-      <h1 style="font-family: 'Coustard', serif; color: black;"><b style="text-shadow: 0px;">CoViBreak</b></h1>
-      <p style="font-family: 'Coustard', serif; font-size: 25px; color: black">Corona Viruses Breaker</p>
-    </center>
+	<div class="topBox">
+
+		<button class="btnExit">
+      <a href="https://covibreak-markoding01.markoding01.repl.co/beranda" id="btnExit">
+        <img src="/Images/btnExit.png" class="btnExitImg" />
+      </a>
+    </button>
+    
+    <h1 class="title">Notifikasi</h1>
   </div>
+
+  <div style="max-width: 85%; margin: 0 auto">
+    <p class="notifTitle">Kasus Positif</p>
+    <p id="pesan" class="pesan"></p>
+  </div>
+  <center>
+    <hr color="black" style="max-width: 90%; box-shadow: 0px 8px 20px 2px;">
+  </center>
+<body>
+  
 </body>
 </html>

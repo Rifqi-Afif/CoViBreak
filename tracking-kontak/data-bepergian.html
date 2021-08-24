@@ -29,8 +29,8 @@
 </head>
 
 <body>
-	<script src="trackingKontak.js">
-	</script>
+	<script src="trackingKontak.js"></script>
+  <script src="/notif/notif.js"></script>
 	<div id="opacity">
 		<div class="topBox">
 
@@ -48,17 +48,16 @@
 
       <b><p class="teksInput">Tempat Bepergian</p></b>
       <input id="pac-input" class="controls" type="text" placeholder="Cari Lokasi" style="margin-top: 75px;"/>
-      <div id="map" style="max-width: 90%; height: 350px;margin: 0 auto"></div>
-
+      <div id="map" class="input" style="max-width: 90%; height: 350px;margin: 0 auto"></div>
 
       <b><p class="teksInput">Tanggal Bepergian</p></b>
-      <input type="date" class="inputForm form tglBepergian"/>
+      <input type="date" class="inputForm form" id="tglBepergian"/>
 
       <b><p class="teksInput">Jam Pergi</p></b>
-      <input type="time" class="inputForm form jamPergi"/>
+      <input type="time" class="inputForm form" id="jamPergi"/>
 
       <b><p class="teksInput">Jam Pulang</p></b>
-      <input type="time" class="inputForm form jamPulang"/>
+      <input type="time" class="inputForm form" id="jamPulang"/>
 
       <div id="formNew"></div>
 

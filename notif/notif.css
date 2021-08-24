@@ -45,3 +45,18 @@ body
   height: 75%;
   transform: translate(10px, 50%);
 }
+
+.notifTitle
+{
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.pesan
+{
+  color: black;
+  margin-top: 0px;
+}

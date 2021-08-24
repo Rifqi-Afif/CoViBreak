@@ -25,7 +25,10 @@
 	</script>
 </head>
 
-<body>
+<body onload="loadNotif()">
+  <script src="tracking-kontak/trackingKontak.js"></script>
+  <script src="notif.js"></script>
+
 	<div class="topBox">
 
 		<button class="btnExit">
@@ -36,6 +39,14 @@
     
     <h1 class="title">Notifikasi</h1>
   </div>
+
+  <div style="max-width: 85%; margin: 0 auto">
+    <p class="notifTitle">Kasus Positif</p>
+    <p id="pesan" class="pesan"></p>
+  </div>
+  <center>
+    <hr color="black" style="max-width: 90%; box-shadow: 0px 8px 20px 2px;">
+  </center>
 <body>
   
 </body>

@@ -149,9 +149,9 @@ function initMap() {
   });
 
   function cekWarna(population) {
-    return (population < 100000) ? "FF7A00"
-      : (population > 600000) ? "FD0000"
-      : "#ffff00";
+    return (population < 100000) ? "#ff0000"
+      : (population > 80000) ? "#ff8800"
+      : (population > 40000) ? "#ffea00"
   }
 
 // for in

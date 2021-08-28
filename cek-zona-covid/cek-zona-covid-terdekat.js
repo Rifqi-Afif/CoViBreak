@@ -151,7 +151,7 @@ function initMap() {
   function cekWarna(population) {
     return (population >= 100000) ? "#ff0000"
       : (population >= 40000 && population < 100000) ? "#ff8800"
-      : (population < 40000) ? "#ffea00"
+      : "#ffea00"
   }
 
 // for in
